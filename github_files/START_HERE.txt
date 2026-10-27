@@ -1,0 +1,19 @@
+DTSC 3601 Code Repository submission — customization checklist
+
+1) Open DTSC_3601_Code_Repository_Submission.docx and REPLACE bracketed
+   GitHub URL, group name, and teammate names. Also update README.md.
+2) Confirm with teammates which software license to publish and update LICENSE
+   (MIT draft is provided only as a starting option).
+3) Add these files to your group's EXISTING GitHub repo. Do not delete/replace
+   working RentCast, S3, SHAP, or training scripts. Update the README tree and
+   docs to match whatever real files you keep.
+4) From repository root: pip install -r requirements.txt
+   then python bin/quickstart.py and python -m unittest discover -s tests
+5) Set repository visibility to PUBLIC. Test its URL in private/incognito
+   browsing with no GitHub login. Check README, docs, bin, and LICENSE render.
+6) Put the actual URL at TOP of the Word doc and upload .docx to Canvas before
+   Tuesday Oct 27, 2026 at 10:00 a.m. ET.
+
+CAUTION: Source code here is a NEW runnable OFFLINE reference demo. It is not a
+copy of your existing team implementation and does not make live RentCast or
+AWS calls. Add your existing project code to the public repo as well.

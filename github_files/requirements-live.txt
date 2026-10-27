@@ -1,0 +1,4 @@
+requests>=2.31,<3
+boto3>=1.28,<2
+python-dotenv>=1.0,<2
+shap>=0.44,<1
